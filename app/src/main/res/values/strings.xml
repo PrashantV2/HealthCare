@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="login">Login</string>
+    <string name="healthcare_application">Healthcare Application</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register_as_patient">Register as Patient</string>
+    <string name="register_as_doctor">Register as Doctor</string>
+    <string name="patient_registration">Patient Registration\n</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="location">Location\n</string>
+    <string name="doctor_registration">Doctor Registration\n</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude\n</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="appointment_details">Appointment Details</string>
+    <string name="save_appointment">Save Appointment</string>
+    <string name="doctor_dashboard">Doctor Dashboard</string>
+    <string name="view_all_appointments">View All Appointments</string>
+    <string name="prescribe_medicine">Prescribe Medicine</string>
+    <string name="logout">Logout</string>
+    <string name="developer_info">Developer Info</string>
+    <string-array name="doctor_types">
+        <item>General Practitioner</item>
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Gynecologist</item>
+        <item>Neurologist</item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthcare_application"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/registerPatientTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_as_patient"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/registerDoctorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_as_doctor"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/developerInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developer_info"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
